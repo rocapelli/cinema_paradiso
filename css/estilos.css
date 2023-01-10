@@ -40,6 +40,12 @@ html{
     font-size: 1.2rem;
     padding: 0.3rem;
     border-radius: 0.3rem;
+    transition: all 0s;
+}
+
+.header__ancla:hover{
+    text-decoration: underline;
+    font-weight: 700;
 }
 
 .header__ancla--activo{
@@ -197,12 +203,21 @@ html{
 }
 
 .mainBoleteria__button{
-    padding: 0.5rem;
+    padding: 1rem;
     margin: 1rem;
     border: solid 0.1rem #070534;
-    background-color: #234454;
+    border-radius: 7rem;
+    background-color: #070534;
     color: whitesmoke;
+    transition: all 1s;
 }
+
+.mainBoleteria__button:hover{
+    background-color: #3EF59F;
+    color: #070534;
+    font-weight: 700;
+}
+
 /*Fin main Boletería*/
 
 /*Inicio main Próximamente*/
@@ -218,6 +233,12 @@ html{
     border: 0.5rem double #234454;
     margin: 5rem 10rem;
     background-color: whitesmoke;
+    transition: all 3s;
+}
+
+.mainProximamente__contenedor:hover{
+    background-color: #234454;
+    border: 0.5rem double whitesmoke;
 }
 
 .mainProximamente__imagen{
@@ -234,6 +255,11 @@ html{
     letter-spacing: 0.5rem;
     word-spacing: 0.5rem;
     line-height: 4rem;
+    transition: all 3s;
+}
+
+.mainProximamente__sinopsis:hover{
+    color: whitesmoke;
 }
 /*Fin main Próximamente*/
 
@@ -273,19 +299,42 @@ html{
 }
 
 .mainContacto__reset{
-    padding: 0.5rem;
+    padding: 1rem;
     margin: 1.5rem;
     border: solid 0.1rem #070534;
-    background-color: #234454;
+    border-radius: 7rem;
+    background-color: #070534;
     color: whitesmoke;
+    font-weight: 700;
+    transition: all 1s;
+}
+
+.mainContacto__reset:hover{
+    background-color: #3EF59F;
+    color: #070534;
+    font-weight: 700;
+}
+
+.mainContacto__botones{
+    display: flex;
+    justify-content: center;
 }
 
 .mainContacto__submit{
-    padding: 0.5rem;
+    padding: 1rem;
     margin: 1.5rem;
     border: solid 0.1rem #070534;
-    background-color: #234454;
+    border-radius: 7rem;
+    background-color: #070534;
     color: whitesmoke;
+    font-weight: 700;
+    transition: all 1s;
+}
+
+.mainContacto__submit:hover{
+    background-color: #3EF59F;
+    color: #070534;
+    font-weight: 700;
 }
 /*Fin main Contacto*/
 
@@ -323,11 +372,20 @@ html{
 }
 
 .mainMiCuenta__submit{
-    padding: 0.5rem;
+    padding: 1rem;
     margin: 2rem;
     border: solid 0.1rem #070534;
-    background-color: #234454;
+    border-radius: 7rem;
+    background-color: #070534;
     color: whitesmoke;
+    font-weight: 700;
+    transition: all 1s;
+}
+
+.mainMiCuenta__submit:hover{
+    background-color: #3EF59F;
+    color: #070534;
+    font-weight: 700;
 }
 
 .mainMiCuenta__texto{
