@@ -317,7 +317,7 @@ html{
 
 .mainContacto__textareaInput{
     height: 20rem;
-    width: 50rem;
+    width: 100%;
 }
 
 .mainContacto__botones{
@@ -366,7 +366,6 @@ html{
     background-image: url(../img/pattern\ moroccan-flower.png);
     display: flex;
     justify-content: center;
-    height: 45rem;
 }
 
 .mainMiCuenta__form{
@@ -376,9 +375,8 @@ html{
 .mainMiCuenta__fieldset{
     padding: 3rem 5rem;
     background-color: whitesmoke;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
+    line-height: 3.5rem;
 }
 
 .mainMiCuenta__leyendaFormato{
@@ -387,6 +385,8 @@ html{
 }
 
 .mainMiCuenta__contenedor{
+    display: flex;
+    justify-content: space-between;
     font-size: 1.5rem;
     font-weight: 700;
     margin: 2rem;
@@ -478,6 +478,9 @@ html{
     .mainIndex__contenedor{
         display: flex;
         justify-content: center}
+    .mainIndex__imagen{
+        height: 32rem;
+        width: 24rem;}
     .mainIndex__sinopsisEtiqueta{
         display: none;}
     .mainIndex__contenedorSinopsis {
@@ -507,5 +510,123 @@ html{
         font-weight: 700;
         color: #070534;
         text-align: justify;}
+
+    .mainBoleteria{ 
+        padding: 1rem 1rem;}
+
+    .mainBoleteria__section{
+        padding: 1rem;}    
+
+    .mainBoleteria__titulo{
+        font-size: 1.8rem;
+        margin: 0.5rem;}
+
+    .mainBoleteria label{
+        font-size: 1.1rem;
+        font-weight: 700;
+        width: 6rem;
+        margin-right: 1.5rem;}
+
+    .mainBoleteria select{
+        font-size: 1.1rem;}
+
+    .mainBoleteria__button{
+        font-size: 1.1rem;
+        padding: 1rem;
+        margin: 4rem 2rem 1rem 2rem;}
+
+    .mainProximamente{
+        padding: 0.5rem;}
+
+    .mainProximamente__contenedor{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        margin: 1rem;}
+
+    .mainProximamente__imagen{
+        height: 32rem;
+        width: 24rem;
+        padding: 1rem;
+        margin: 0rem;}
+
+    .mainProximamente__sinopsis{
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        text-align: justify;
+        color: #070534;
+        font-weight: 700;
+        letter-spacing: 0rem;
+        word-spacing: 0rem;
+        line-height: 3rem;
+        transition: all 3s;}
+
+    .mainContacto{
+        padding: 2.5rem 0.5rem;}
+
+    .mainContacto__leyendaFormato{
+        font-size: 2.2rem;}
+
+    .mainContacto__titulo{
+        font-size: 1.2rem;
+        margin: 1.5rem;}
+
+    .mainContacto__fieldset{
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;}
+
+    .mainContacto__contenedor{
+        font-size: 1.2rem;
+        margin: 1.5rem;}
+
+    .mainContacto__textoFormato{
+        font-size: 1.2rem;
+        margin-right: 0.5rem;
+        text-align: justify;} 
+
+    .mainContacto__textareaInput{
+        height: 15rem;
+        width: 100%;}
+
+    .mainContacto__reset{
+        font-size: 1.1rem;
+        padding: 1rem;
+        margin: 1.5rem;
+        border-radius: 7rem;}
+
+    .mainContacto__submit{
+        font-size: 1.1rem;
+        padding: 1rem;
+        margin: 1.5rem;
+        border-radius: 7rem;}
+
+    .mainMiCuenta{
+        padding: 2.5rem 0.5rem;}
+
+    .mainMiCuenta__form{
+        padding: 1rem;}
+
+    .mainMiCuenta__fieldset{
+        padding: 1rem;
+        line-height: 2.5rem;}
+
+    .mainMiCuenta__leyendaFormato{
+        font-size: 2.2rem;}
+
+    .mainMiCuenta__contenedor{
+        font-size: 1.2rem;
+        font-weight: 700;
+        margin: 0.8rem;}
+
+    .mainMiCuenta__submit{
+        font-size: 1.1rem;
+        padding: 1rem;
+        margin: 1.5rem;}
+
+    .mainMiCuenta__texto{
+        font-size: 1.4rem;
+        margin: 1rem;}
+
 }
 /*Fin MEDIA QUERIES (estilos móviles)*/
+
