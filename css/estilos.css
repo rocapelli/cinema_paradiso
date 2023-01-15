@@ -24,7 +24,7 @@ html{
 }
 
 .header__logo{
-    max-width: 70rem;
+    max-width: 40rem;
 }
 
 .header__item{
@@ -55,7 +55,6 @@ html{
 }
 /*Fin header*/
 
-
 /*Incio footer*/
 .footer{
     background-color: #070534;
@@ -68,15 +67,16 @@ html{
 
 .footer__columnaUno{
     padding: 1rem;
-    font-size: 1.2rem;
 }
 
 .footer__tituloColumnaUno{
     padding: 0.2rem;
+    font-size: 1.2rem;
 }
 
 .footer__columnaUno .footer__item{
     list-style: none;
+    font-size: 1rem;
     padding: 0.2rem;
 }
 
@@ -100,13 +100,13 @@ html{
 
 /*Inicio main Index*/
 .mainIndex{
-    padding: 1.5rem;
+    padding: 1rem;
     background-image: url(../img/pattern\ moroccan-flower.png);
 }
 
 .mainIndex__seccion{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .mainIndex__contenedor{
@@ -117,7 +117,7 @@ html{
     display: inline;
     padding: 0.2rem 0.5rem;
     border: solid 0.1rem whitesmoke;
-    margin: 3rem;
+    margin: 2rem;
     font-size: 1.1rem;
     font-weight: 400;
     letter-spacing: 0.2rem;
@@ -129,11 +129,11 @@ html{
 }
 
 .mainIndex__imagen{
-    height: 30rem;
-    width: 20rem;
+    height: 28rem;
+    width: 18rem;
     padding: 0.5rem;
     border: solid 0.5rem #234454;
-    margin: 1.5rem;
+    margin: 0.5rem;
 }
 
 .mainIndex__contenedorSinopsis{
@@ -141,13 +141,13 @@ html{
     align-items: center;
     padding: 1rem 6rem;
     border: 0.5rem double whitesmoke;
-    margin: 5rem 10rem;
-    font-size: 1.4rem;
+    margin: 5rem 7rem;
+    font-size: 1.3rem;
     color: whitesmoke;
     font-weight: 400;
     letter-spacing: 0.5rem;
     word-spacing: 0.5rem;
-    line-height: 4rem;
+    line-height: 3rem;
     background-color: #234454;
 }
 
@@ -158,18 +158,18 @@ html{
 
 .mainIndex__sinopsis{
     padding-left: 6rem;
+    text-align: justify;
 }
 /*Fin main Index*/
 
 /*Inicio main Boletería*/
-.mainBoleteria{   
+.mainBoleteria{
     background-image: url(../img/pattern\ moroccan-flower.png);   
-    padding: 5rem 15rem;
+    padding: 3rem 3rem;
 }
 
 .mainBoleteria__section{
     padding: 2rem;
-    border: solid 0.1rem #234454;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -179,23 +179,30 @@ html{
     display: inline;
     font-size: 4rem;
     color: #234454;
+    background-color: whitesmoke;
     margin: 1.5rem;
 }
 
 .mainBoleteria__contenedor{
     padding: 1rem;
     margin: 1rem;
+    background-color: whitesmoke;
+    display: flex;
 }
 
 .mainBoleteria label{
-    color: #234454;
+    color: #070534;
     font-size: 1.5rem;
     font-weight: 700;
+    width: 10rem;
     margin-right: 2rem;
 }
 
 .mainBoleteria select{
     font-size: 1.5rem;
+    flex-grow: 1;
+    background-color: #234454;
+    color: whitesmoke;
 }
 
 .mainBoleteria__buttonAncla{
@@ -204,7 +211,7 @@ html{
 
 .mainBoleteria__button{
     padding: 1rem;
-    margin: 1rem;
+    margin: 6rem 3rem 1rem 3rem;
     border: solid 0.1rem #070534;
     border-radius: 7rem;
     background-color: #070534;
@@ -217,7 +224,6 @@ html{
     color: #070534;
     font-weight: 700;
 }
-
 /*Fin main Boletería*/
 
 /*Inicio main Próximamente*/
@@ -229,9 +235,9 @@ html{
 .mainProximamente__contenedor{
     display: flex;
     align-items: center;
-    padding: 1rem 8rem;
+    padding: 1rem 7rem;
     border: 0.5rem double #234454;
-    margin: 5rem 10rem;
+    margin: 5rem 5rem;
     background-color: whitesmoke;
     transition: all 3s;
 }
@@ -249,7 +255,8 @@ html{
 }
 
 .mainProximamente__sinopsis{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
+    text-align: justify;
     color: #070534;
     font-weight: 700;
     letter-spacing: 0.5rem;
@@ -265,7 +272,7 @@ html{
 
 /*Inicio main Contacto*/
 .mainContacto{
-    padding: 1.5rem;
+    padding: 4.5rem;
     background-image: url(../img/pattern\ moroccan-flower.png);
 }
 
@@ -280,6 +287,16 @@ html{
     color: #234454;
 }
 
+.mainContacto__fieldset{
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.mainContacto__titulo{
+    background-color: whitesmoke;
+    text-align: justify;
+}
+
 .mainContacto__contenedor{
     font-size: 1.5rem;
     font-weight: bolder;
@@ -287,15 +304,25 @@ html{
     color: #234454;
 }
 
+.mainContacto__contenedor label{
+    background-color: whitesmoke;
+}
+
 .mainContacto__textoFormato{
     font-size: 1.5rem;
     font-weight: bolder;
     margin-right: 1.5rem;
+    background-color: whitesmoke;
 }
 
 .mainContacto__textareaInput{
     height: 20rem;
     width: 50rem;
+}
+
+.mainContacto__botones{
+    display: flex;
+    justify-content: center;
 }
 
 .mainContacto__reset{
@@ -313,11 +340,6 @@ html{
     background-color: #3EF59F;
     color: #070534;
     font-weight: 700;
-}
-
-.mainContacto__botones{
-    display: flex;
-    justify-content: center;
 }
 
 .mainContacto__submit{
@@ -404,6 +426,7 @@ html{
 }
 /*Fin main Mi Cuenta*/
 
+
 /*Inicio MEDIA QUERIES (estilos móviles)*/
 @media screen and (max-width: 425px){
 
@@ -485,4 +508,4 @@ html{
         color: #070534;
         text-align: justify;}
 }
-/*Fin MEDIA QUERIES*/
+/*Fin MEDIA QUERIES (estilos móviles)*/
