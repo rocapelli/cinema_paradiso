@@ -1,3 +1,93 @@
+/*inicio media-queries (estilos tablet)*/
+
+@media screen and (max-width: 768px){
+
+    .header{
+        flex-direction: column;}
+
+    .mainIndex__imagen{
+        height: 22rem;
+        width: 14rem;
+        padding: 0.5rem;
+        border: solid 0.2rem #234454;
+        margin: 0.5rem;}
+
+    .mainIndex__contenedorSinopsis{
+        padding: 1rem 4rem;
+        border: 0.5rem double whitesmoke;
+        margin: 4rem 3rem;
+        font-size: 1.2rem;
+        color: whitesmoke;
+        font-weight: 400;
+        letter-spacing: 0.3rem;
+        word-spacing: 0.1rem;
+        line-height: 2.5rem;}
+    
+    .mainIndex__sinopsis{
+        padding-left: 3rem;}
+
+    .mainBoleteria__titulo{
+        font-size: 3.2rem;}
+    
+    .mainBoleteria label{
+        font-size: 1.3rem;}
+    
+    .mainBoleteria select{
+        font-size: 1.3rem;}
+
+    .mainProximamente{
+        padding: 0.5rem;}
+    
+    .mainProximamente__contenedor{
+        padding: 2rem;
+        margin: 3rem;}
+    
+    .mainProximamente__imagen{
+        height: 32rem;
+        width: 24rem;
+        padding: 1rem;
+        margin: 0rem;}
+
+    .mainProximamente__sinopsis{
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+        text-align: justify;
+        color: #070534;
+        font-weight: 700;
+        letter-spacing: 0rem;
+        word-spacing: 0rem;
+        line-height: 3rem;
+        transition: all 3s;}
+
+    .mainContacto__leyendaFormato{
+        font-size: 3.2rem;}
+
+    .mainContacto__titulo{
+        font-size: 1.3rem;}
+        
+    .mainContacto__contenedor{
+        font-size: 1.3rem;}
+        
+    .mainContacto__textoFormato{
+        font-size: 1.3rem;}
+
+    .mainMiCuenta__leyendaFormato{
+        font-size: 3.2rem;}
+
+    .mainMiCuenta__fieldset{
+        line-height: 2rem;}
+
+    .mainMiCuenta__contenedor{
+        font-size: 1.3rem;}
+    
+    .mainMiCuenta__texto{
+        font-size: 1.5rem;}
+
+}
+
+/*fin media-queries (estilos tablet)*/
+
+
 /*inicio media-queries (estilos móviles)*/
 
 @media screen and (max-width: 425px){
