@@ -1,0 +1,50 @@
+/*inicio boletería*/
+
+.mainBoleteria{
+    background-image: url(/img/pat-moroccan-flower.jpg);   
+    padding: 3rem 3rem;
+    &__section{
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;}
+    &__titulo{
+        display: inline;
+        font-size: 4rem;
+        color: #234454;
+        background-color: whitesmoke;
+        margin: 1.5rem;}
+    &__contenedor{
+        padding: 1rem;
+        margin: 1rem;
+        background-color: whitesmoke;
+        display: flex;}
+    & label{
+        color: #070534;
+        font-size: 1.5rem;
+        font-weight: 700;
+        width: 10rem;
+        margin-right: 2rem;}
+    & select{
+        font-size: 1.5rem;
+        flex-grow: 1;
+        background-color: #234454;
+        color: whitesmoke;}
+    &__buttonAncla{
+        display: inline-block;}
+    &__button{
+        padding: 1rem;
+        margin: 6rem 3rem 1rem 3rem;
+        border: solid 0.1rem #070534;
+        border-radius: 7rem;
+        background-color: #070534;
+        color: whitesmoke;
+        transition: all 1s;
+        &:hover{
+            background-color: #3EF59F;
+            color: #070534;
+            font-weight: 700;}
+    }
+}
+
+/*fin boletería*/
