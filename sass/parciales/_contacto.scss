@@ -4,31 +4,31 @@
     padding: 4.5rem;
     background-image: url(../img/pat_moroccan_flower.jpg);
     &__leyendaFormato{
-        font-size: 4rem;
-        color: #234454;}
+        font-size: $titulo;
+        color: $azulClaro;}
     &__titulo{
         font-size: 1.5rem;
         margin: 2rem;
-        color: #234454;}
+        color: $azulClaro;}
     &__fieldset{
         padding-left: 7rem;
         padding-right: 7rem;}
     &__titulo{
-        background-color: whitesmoke;
+        background-color: $blanco;
         text-align: justify;}
     &__contenedor{
         font-size: 1.5rem;
         font-weight: bolder;
         margin: 2rem;
-        color: #234454;
+        color: $azulClaro;
         & label{
-            background-color: whitesmoke;}
+            background-color: $blanco;}
     }
     &__textoFormato{
         font-size: 1.5rem;
         font-weight: bolder;
         margin-right: 1.5rem;
-        background-color: whitesmoke;}
+        background-color: $blanco;}
     &__textareaInput{
         height: 20rem;
         width: 100%;}
@@ -36,31 +36,31 @@
         display: flex;
         justify-content: center;}
     &__reset{
-        padding: 1rem;
+        padding: $paddingBoton;
         margin: 1.5rem;
-        border: solid 0.1rem #070534;
-        border-radius: 7rem;
-        background-color: #070534;
-        color: whitesmoke;
+        border: $bordeBoton;
+        border-radius: $radioBorde;
+        background-color: $azulOscuro;
+        color: $blanco;
         font-weight: 700;
         transition: all 1s;
         &:hover{
-            background-color: #3EF59F;
-            color: #070534;
+            background-color: $verde;
+            color: $azulOscuro;
             font-weight: 700;}
     }
     &__submit{
-        padding: 1rem;
+        padding: $paddingBoton;
         margin: 1.5rem;
-        border: solid 0.1rem #070534;
-        border-radius: 7rem;
-        background-color: #070534;
-        color: whitesmoke;
+        border: $bordeBoton;
+        border-radius: $radioBorde;
+        background-color: $azulOscuro;
+        color: $blanco;
         font-weight: 700;
         transition: all 1s;
         &:hover{
-            background-color: #3EF59F;
-            color: #070534;
+            background-color: $verde;
+            color: $azulOscuro;
             font-weight: 700;}
     }
 }

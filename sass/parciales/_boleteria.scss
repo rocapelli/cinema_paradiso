@@ -10,17 +10,17 @@
         align-items: center;}
     &__titulo{
         display: inline;
-        font-size: 4rem;
-        color: #234454;
-        background-color: whitesmoke;
+        font-size: $titulo;
+        color: $azulClaro;
+        background-color: $blanco;
         margin: 1.5rem;}
     &__contenedor{
         padding: 1rem;
         margin: 1rem;
-        background-color: whitesmoke;
+        background-color: $blanco;
         display: flex;}
     & label{
-        color: #070534;
+        color: $azulOscuro;
         font-size: 1.5rem;
         font-weight: 700;
         width: 10rem;
@@ -28,21 +28,21 @@
     & select{
         font-size: 1.5rem;
         flex-grow: 1;
-        background-color: #234454;
-        color: whitesmoke;}
+        background-color: $azulClaro;
+        color: $blanco;}
     &__buttonAncla{
         display: inline-block;}
     &__button{
-        padding: 1rem;
+        padding: $paddingBoton;
         margin: 6rem 3rem 1rem 3rem;
-        border: solid 0.1rem #070534;
-        border-radius: 7rem;
-        background-color: #070534;
-        color: whitesmoke;
+        border: $bordeBoton;
+        border-radius: $radioBorde;
+        background-color: $azulOscuro;
+        color: $blanco;
         transition: all 1s;
         &:hover{
-            background-color: #3EF59F;
-            color: #070534;
+            background-color: $verde;
+            color: $azulOscuro;
             font-weight: 700;}
     }
 }

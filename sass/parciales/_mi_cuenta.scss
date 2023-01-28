@@ -9,40 +9,40 @@
         padding: 3rem;}
     &__fieldset{
         padding: 3rem 5rem;
-        background-color: whitesmoke;
+        background-color: $blanco;
         text-align: center;
         line-height: 3.5rem;}
     &__leyendaFormato{
-        font-size: 4rem;
-        color: #234454;}
+        font-size: $titulo;
+        color: $azulClaro;}
     &__contenedor{
         display: flex;
         justify-content: space-between;
         font-size: 1.5rem;
         font-weight: 700;
         margin: 2rem;
-        color: #234454;}
+        color: $azulClaro;}
     &__submit{
-        padding: 1rem;
+        padding: $paddingBoton;
         margin: 2rem;
-        border: solid 0.1rem #070534;
-        border-radius: 7rem;
-        background-color: #070534;
-        color: whitesmoke;
+        border: $bordeBoton;
+        border-radius: $radioBorde;
+        background-color: $azulOscuro;
+        color: $blanco;
         font-weight: 700;
         transition: all 1s;
         &:hover{
-            background-color: #3EF59F;
-            color: #070534;
+            background-color: $verde;
+            color: $azulOscuro;
             font-weight: 700;}
     }
     &__texto{
         font-size: 1.8rem;
         margin: 2rem;
-        color: #234454;}
+        color: $azulClaro;}
     &__ancla{
         text-decoration: underline;
-        color: #234454;}
+        color: $azulClaro;}
     &__strong{
         font-weight: 700;}
 }
