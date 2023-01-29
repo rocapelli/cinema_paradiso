@@ -11,11 +11,10 @@
     &__sinopsisEtiqueta{
         display: inline;
         padding: 0.2rem 0.5rem;
-        border: solid 0.1rem $blanco;
         margin: 2rem;
-        font-size: 1.1rem;
+        font-size: 1rem;
         font-weight: 400;
-        letter-spacing: 0.2rem;
+        letter-spacing: 0.1rem;
         background-color: $azulOscuro;
         color: $blanco;
         position: absolute;
@@ -25,7 +24,7 @@
         height: $altoImagen;
         width: $anchoImagen;
         padding: 0.5rem;
-        border: solid 0.5rem $azulClaro;
+        border: solid 0.1rem $azulClaro;
         margin: 0.5rem;}
     &__contenedorSinopsis{
         display: flex;

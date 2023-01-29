@@ -12,21 +12,12 @@
         border: solid 0.2rem $azulClaro;
         margin: 0.5rem;}
 
-    .mainIndex__contenedorSinopsis{
-        padding: 1rem 4rem;
-        border: 0.5rem double $azulOscuro;
-        margin: 4rem 3rem;
-        font-size: 1.2rem;
-        color: $azulOscuro;
-        letter-spacing: 0.3rem;
-        word-spacing: 0.1rem;
-        line-height: 2.5rem;}
+    .sinopsis__titulo{
+        margin-bottom: 1.5rem;
+        font-size: 1.2rem;}
     
-    .mainIndex__sinopsis{
-        padding-left: 3rem;}
-
-    .mainBoleteria__titulo{
-        font-size: $tituloTablet;}
+    .sinopsis__sinopsis{
+        font-size: 1rem;}
     
     .mainBoleteria label{
         font-size: 1.3rem;}
@@ -144,34 +135,32 @@
         width: $anchoImgTab-Mob;}
     .mainIndex__sinopsisEtiqueta{
         display: none;}
-    .mainIndex__contenedorSinopsis {
-        display: grid;
+    .sinopsis__imagen{
+        display: none;}
+    .sinopsis__anchor{
+        display:flex;
         align-items: center;
-        padding: 0.5rem 0.5rem;
+        justify-content: center;
+        padding: 0.5rem 1rem;
         border: 0.5rem double $azulClaro;
-        margin: 2rem 1rem;
-        font-size: 1.4rem;
+        margin: 2.5rem 1rem;
         color: $azulOscuro;
         font-weight: 400;
-        word-spacing: 0.5rem;
-        line-height: 4rem;
+        word-spacing: 0.3rem;
+        line-height: 2rem;
         background-color: $blanco;}
-    .mainIndex__contenedorSinopsis h4 {
-        display: grid;
-        grid-template-columns: 1fr;
-        font-size: 1.2rem;  
-        font-style: italic;
+    .sinopsis__titulo{
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
         text-align: center;
-        line-height: 2.2rem;}
-    .mainIndex__sinopsis {
-        padding: 0rem 0.5rem;
+        font-style: italic;}
+    .sinopsis__sinopsis{
         letter-spacing: 0rem;
-        line-height: 2.2rem;
         font-size: 1.1rem;
         font-weight: 700;
         color: $azulOscuro;
         text-align: justify;}
-
+    
     .mainBoleteria{ 
         padding: 1rem 0.8rem;}
 
